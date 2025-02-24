@@ -1,0 +1,101 @@
+,table_name,col_name,data_type,comment
+2,ingest__db_base.np_openbnk_inquiry_hist,serial_no,bigint,일련번호
+2,fsight.profile,age_band,bigint,나이대
+52,ingest__db_base.nm_order_dlvfee,rfnd_fail_trtr_iden_no,string,환불 실패 처리자 식별 번호
+15,ingest__db_base.nm_nc_mbr_private,ncash_ssc_sw_ymdt,string,네이버마일리지가입전환일시
+4,ingest__db_base.naa_auto_deposit,deposit_account_no_enc,string,입금 계좌번호
+18,ingest__db_base.np_sndm_trad,cncl_type_cd,string,취소 구분 코드
+4,ingest__db_base.reward_ad_participate,advertising_id,string,"광고 식별자(GAID, IDFA): 애디슨 오퍼월 내부의 세션Id, 네이버 사용자와 싱크 맞출때 만들어지는 토큰"
+1,ingest__db_base.nm_nsp_nvpnt_auto_chgn,pay_id,string,최종 결제번호
+25,ingest__db_base.wetax_record,mod_date,timestamp,수정날짜
+191,fsight__db_mycar.score,mycar_click_cnt,int,마이카 관련 톡톡/알림 클릭 수
+8,ingest__db_base.dicon_chargetr,title,string,결제 상품 명
+4,ingest__db_base.return_care_transfer_info,createdate,timestamp,데이터 생성일자(UTC->KST)
+7,ingest__db_base.nsp_pay_event_detail,memberno,string,네이버페이 회원번호
+0,ingest__db_base.nm_cash_lgqty_acm_mbr,last_hp_dt,string,하이브 업데이트 일자
+34,ingest__db_base.nm_mrc_npg_info,add_acm_yn,boolean,포인트추가적립허용여부
+1,ingest__db_base.loan_product_deny_info,_id,string,서비스 타입 해싱값
+25,ingest__db_base.nch_cash_mrc,mrc_catg_seq,string,가맹점 카테고리 일련번호 # NOTE: DEPRECATED
+178,fsight__db_mycar.score,acm_elap_days_liv,int,포인트 적립(쇼핑라이브) 후 경과일 (최근 1년 이내)
+16,ingest__db_base.nm_cash_cnfg,cnfg_ymdt,timestamp,설정일시
+28,ingest__db_base.billing_seller,bankname,string,은행명
+9,ingest__db_base.np_sndm_rsv_info,prd_type_cd,string,주기유형(PRDTP_001:매월/PRDTP_002:매주/PRDTP_003:1회)
+33,ingest__db_base.nm_cupn,prch_desn_ymdt,timestamp,구매확정일
+58,fsight__db_mart_fbi.np_pay_mart,ezpay_cph_pay_amt,"decimal(38,16)",핸드폰간편결제액
+4,ingest__db_base.digital_message,timestamp,string,1970-01-01 00:00:00 GMT로 부터의 milliseconds값 (Date.getTime())
+2,ingest__db_base.billing_paytr,trtype,string,요청구분
+17,ingest__db_base.nsp_pay_event_detail,cardcode,string,카드회사 구분 코드
+10,ingest__db_base.nup_expt_ka_hist,file_cre,boolean,파일생성 여부
+3,ingest__db_base.engine_oil_info,makername,string,제조사 이름
+7,ingest__db_base.naver_gfd_log,adgrp_saleunit_id,string,판매유닛id
+3,ingest__db_base.dicon_codetab,name,string,이름
+189,fsight__db_mycar.score,mycar_open_cnt,int,마이카 관련 톡톡/알림 열람 수
+25,ingest__db_base.ss_prod,rgst_ymdt,string,등록일시
+1,ingest__db_base.nm_order_cre_info,order_no,string,주문번호
+17,ingest__db_base.nch_cash_cupn,publ_ymdt,timestamp,발행일시
+40,ingest__db_base.nm_prod_order_prod,lkdy_catg_id_list,string,럭키투데이 카테고리 ID 목록
+109,fsight__db_mart_fbi.np_ord_mart,add_pay_method_type_cd,string,보조결제수단유형코드
+1,ingest__db_base.myasset_deposit_account,seq,bigint,일련번호
+58,ingest__db_base.nm_prod_order_prod,rtn_dlvfee_amt,bigint,반품배송비
+22,ingest__db_base.billing_ecsetl,sellingcnt,bigint,판매건수
+0,ingest__db_base.nclicks,last_hp_dt,string,하이브 업데이트 일자
+1,ingest__db_base.noti_push_log,activityid,bigint,"알림 activityId (eventid 와 동일하게 생성되며, 1:1 관계입니다)"
+1,ingest__db_base.nm_cupn_use_dlist,cupn_use_no,string,쿠폰 사용 번호
+20,ingest__db_base.np_sndm_rsv_info_hist,trtr_id,string,처리자ID
+3,ingest__db_base.billing_evidenceinfo,svcinf,string,서비스상품주문번호
+10,ingest__db_base.nm_cupn,cst_brdn_cl_cd,string,비용 부담 구분 코드
+43,ingest__db_base.nm_nc_mrc_private,bnk_sndm_dsgt_no,string,은행 송금 지정 번호
+70,fsight__db_mart_fbi.np_ord_mart,wnd_biz_area_nm,string,윈도우상권명
+10,ingest__db_base.dicon_oneclickpgcorp,pcyn,boolean,PC 결제 여부
+6,ingest__db_base.user_hst,join_dt,timestamp,최종 가입 일자
+46,ingest__db_base.nm_dlv,regr_tp_cd,string,등록자 구분 코드
+18,ingest__db_base.nm_dlv,dlvsvc_co_cd,string,택배사 코드
+13,ingest__db_base.np_sndm_rsv_info_hist,end_ymd,string,종료일
+4,ingest__db_base.myasset_loan_account,asset_id,bigint,자산Id
+3,ingest__db_base.nm_nsp_pay,mrc_no,string,nPay 가맹점 번호
+9,ingest__db_base.reward_ad_impression_from_nbt,sdk_ver,string,SDK 버전 (UserAgent의 값이 없을때 -1)
+12,ingest__db_base.reward_ad_nf_click,dt,string,하이브 업데이트 일자
+6,ingest__db_base.nm_comm_cd,desc_cont,string,공통 코드 소개 내용
+11,fsight__db_mart_fbi.np_sndm_trade_mart,ord_sht_type_cd,string,주문서구분코드
+65,ingest__db_base.ss_prod,paral_impt_prod_yn,boolean,병행수입상품여부
+1,ingest__db_base.fds_abuse_list_hist,list_type,string,어뷰징 유형코드
+23,ingest__db_base.nm_extrafee,prch_desn_trtr_iden_no,string,구매확정처리자식별번호
+20,fsight__db_mart_fbi.np_dicon_mart,item_id,string,아이템ID
+9,ingest__db_base.wetax_record,product_name,string,세금명
+18,fsight__db_mart_fbi.np_pay_mart,grp_cd,string,그룹코드
+18,ingest__db_base.nm_nsp_crs_brdr_rsv,base_crncy_cd,string,기준 통화 코드
+36,ingest__db_base.nm_clm,hbk_rels_ymdt,timestamp,보류 해제 일시
+30,ingest__db_base.billing_seller,ntstaxcode,string,국세청과세유형
+6,ingest__db_base.mycar_info,modelname,string,차량 모델명
+1,fsight__db_mart_fbi.np_ord_mart,prod_order_no,string,상품주문번호
+49,ingest__db_base.ss_prod,diff_dlvfee_cont,string,차등배송비 내용
+8,ingest__db_base.zeropay_mrc,bizno,string,사업자등록번호
+13,ingest__db_base.dicon_item,settletype,string,기간 설정 구분 코드
+20,ingest__db_base.nm_cupn,prod_no,string,상품 번호
+0,ingest__db_base.members_concern_sme_subvention,last_hp_dt,string,하이브 업데이트 일자
+5,ingest__db_base.naa_auto_deposit,deposit_bank_code,string,입금 은행 코드(238:미래에셋대우)
+12,ingest__db_base.billing_seller,chrgremail,string,담당자 이메일(암호화)
+8,ingest__db_base.np_openbnk_use_org,month_limit,string,월간출금한도
+29,fsight__db_mycar.score,npay_ez_3month_amt,bigint,최근 3개월 네이버페이 간편결제 결제금액
+5,fsight__db_mart_fbi.np_dicon_mart,mobile_yn,boolean,모바일여부
+0,fsight.finance_event,npay_mbr_no,string,페이회원번호
+7,ingest__db_base.nm_order_dlvfee_cupn_use_dlist,cupn_apl_tp_cd,string,쿠폰 적용 구분 코드
+19,ingest__db_base.reward_ad_info,thumbnail,string,목록에 표시될 광고 썸네일
+3,ingest__db_base.return_care_settle_summary_success_info,version,string,Collection 버전
+32,ingest__db_base.nm_cupn_pubt,knw_shop_prod_yn,boolean,네이버쇼핑 상품 여부
+17,ingest__db_base.nm_pay_adms,pay_crt_no,string,결제 인증 번호
+6,ingest__db_base.nm_extrafee,clm_cmpl_yn,boolean,클레임완료여부
+30,ingest__db_base.nm_pay_adms,frint_istlm_brdn_core_tp_cd,string,무이자 할부 부담주체 구분 코드
+16,ingest__db_base.billing_seller,expdttm,timestamp,만료일자
+14,fsight.point,prod_nm,string,상품명
+18,ingest__db_base.delivery_tracking_event,data_deliverycompany_checkinvoicevalidation,boolean,송장 밸리데이션검사 여부
+14,ingest__db_base.nm_nsp_pay_rsv,rtn_url,string,Return URL
+3,ingest__db_base.billing_payinfo,rsvno,string,예약번호
+20,fsight.finance,pl_limit_amt,bigint,PL한도금액
+17,ingest__db_base.nf_api_log,# col_name,data_type,comment
+13,ingest__db_base.nm_prod_order_prod,prod_opt_cont,string,옵션 상품 내용
+13,ingest__db_base.digital_amtinfo_message,svcseq,string,사용된 서비스 시퀀스
+5,ingest__db_base.np_sndm_rsv_info,del_ymdt,timestamp,해지일
+12,ingest__db_base.np_sndm_rsv_exec_info,prd_type_cd,string,주기유형(PRDTP_001:매월/PRDTP_002:매주/PRDTP_003:1회)
+25,ingest__db_base.billing_seller,celph,string,의뢰업체휴대폰번호(암호화)
+3,ingest__db_base.nm_cash_cnfg,cs_rwrd_cl_cd,string,CS보상 유형코드
